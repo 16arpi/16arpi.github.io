@@ -1,0 +1,8 @@
+.white > a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.white > a:hover {
+  text-decoration: underline !important;
+}
