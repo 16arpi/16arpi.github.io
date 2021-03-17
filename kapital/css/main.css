@@ -1,3 +1,5 @@
+@import "https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css";
+
 .white > a {
   color: #fff !important;
   text-decoration: none !important;
@@ -5,4 +7,21 @@
 
 .white > a:hover {
   text-decoration: underline !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.shadow {
+  box-shadow: 5px 5px rgba(0,0,0,0.5);
+}
+
+.shadow-white {
+  box-shadow: 5px 5px rgba(255,255,255,0.5);
 }

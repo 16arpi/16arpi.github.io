@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kapital</title>
   <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+
 </head>
 <body class="sans-serif">
   <header
   class="bg-black white sans-serif flex flex-column-m justify-between ph5 pv4" >
     <div class="" >
-      <span class="f4 yellow" >↙↙↙</span>
+      <span class="f4 yellow" ><a href="./">↙↙↙</a></span>
     </div>
     <div class="dn-m" >
       <nav class="white">
@@ -24,31 +24,344 @@
   </header>
 
   <section >
-    <div class="flex flex-column-m" >
-      <div class="navy bg-light-blue w-50 w-100-m ph5 pv6" >
-        <h1 class="f-subheadline pa0 ma0" >
-          La vie quotidienne
+    <div class="navy bg-light-blue  flex flex-column-m items-center justify-between" >
+      <div class="w-50 w-100-m  ph5 pv6" >
+        <h1 class="f-subheadline lh-solid pa0 ma0 mt0 v-mid" >
+          Derrière un prix : du travail
         </h1>
       </div>
-      <div class="navy bg-light-blue w-50 w-100-m ph5 pv6" >
-        <p class="f2 measure-narrow">
-          Le quotidien, c'est aller <u>travailler</u>, d'exercer son <u>métier</u>. C'est toucher un <u>salaire</u>. Mais c'est aussi <u>acheter</u> des trucs pour vivre, qu'y ont un <u>prix</u>.
+      <div class="navy bg-light-blue w-50 w-100-m" >
+        <p class="f3 measure-narrow">
+          <center><img src="./assets/burger.svg" class="w-50" /></center>
         </p>
       </div>
     </div>
   </section>
 
-  <section >
-    <div class="flex flex-column-m" >
-      <div class="navy bg-light-blue w-50 w-100-m ph5 pv6" >
-
+  <section class="bg-light-yellow dark pa5" >
+    <div class="flex flex-column-m">
+      <div class="w-third w-100-m" >
+        <h1 class="f3 mt0" >Derrière le prix d'un burger</h1>
       </div>
-      <div class="navy bg-light-blue w-50 w-100-m ph5 pv6" >
+      <div class="w-two-thrid w-100-m" >
+        <p class="f4 mt0 lh-copy measure">
+          Pour mieux comprendre la logique capitaliste, il faut revenir à la base de l'économie : l'échange. Un échange est possible quand deux marchandises ont la même valeur. Cette valeur, on l'appelle <i>valeur d'échange</i>. Ici, on va prendre un burger vendu 10€, auquel on va enelver la TVA, soit au prix de 8€ HT.
+        </p>
+        <p class="f4 mt0 lh-copy measure b">
+          Pour comprendre le prix de ce burger, on va découvrir ce qu'il se cache derrière. Ensuite, pour chaque élément, on va refaire le même exercice jusqu'à arriver à la fin du processus
+        </p>
 
       </div>
     </div>
   </section>
 
+  <section class="pa5 bg-light-yellow dark pt0 white" >
+    <div class="flex flex-column-m" >
+      <div class="pa3 bg-navy" style="width: 40%;" >
+        Ingrédients
+      </div>
+      <div class="pa3 bg-dark-pink" style="width: 40%;" >
+        Machines
+      </div>
+      <div class="pa3 bg-dark-green" style="width: 10%;" >
+        Travail
+      </div>
+      <div class="pa3 bg-dark-blue" style="width: 10%;" >
+        Plus-value
+      </div>
+    </div>
+    <div class="flex flex-column-m bg-light-yellow dark" >
+      <!-- MATIERE / INGREDIENTS -->
+      <div class="pa3 bg-dark-gray" style="width: 24%;" >
+        Outils
+      </div>
+      <div class="pa3 bg-dark-red" style="width: 8%;" >
+        Légumes
+      </div>
+      <div class="pa3 bg-dark-green" style="width: 4%;" >
+        T
+      </div>
+      <div class="pa3 bg-dark-blue" style="width: 4%;" >
+        PV
+      </div>
+      <!-- MACHINES -->
+      <div class="pa3 bg-dark-gray" style="width: 24%;" >
+        Outils
+      </div>
+      <div class="pa3 bg-dark-red" style="width: 8%;" >
+        Matière
+      </div>
+      <div class="pa3 bg-dark-green" style="width: 4%;" >
+        T
+      </div>
+      <div class="pa3 bg-dark-blue" style="width: 4%;" >
+        PV
+      </div>
+      <!-- T + PV -->
+      <div class="pa3" style="width: 10%;" >
+
+      </div>
+      <div class="pa3" style="width: 10%;" >
+
+      </div>
+    </div>
+    <div class="flex flex-column-m bg-light-yellow dark" >
+      <!-- MATIERE / INGREDIENTS -->
+      <!-- Outil -->
+      <div class="pa3 bg-dark-red" style="width: 16%;" >
+        Matière
+      </div>
+      <div class="pa3 bg-dark-green" style="width: 4%;" >
+        T
+      </div>
+      <div class="pa3 bg-dark-blue" style="width: 4%;" >
+        PV
+      </div>
+
+
+      <!-- MATIERE -->
+      <div class="pa3 bg-dark-green" style="width: 4%;" >
+        T
+      </div>
+      <div class="pa3 bg-dark-blue" style="width: 4%;" >
+        PV
+      </div>
+      <div class="pa3" style="width: 4%;" >
+      <!-- T + V -->
+
+      </div>
+      <div class="pa3" style="width: 4%;" >
+
+      </div>
+
+      <!-- Outil -->
+      <div class="pa3 bg-dark-red" style="width: 16%;" >
+        Matière
+      </div>
+      <div class="pa3 bg-dark-green" style="width: 4%;" >
+        T
+      </div>
+      <div class="pa3 bg-dark-blue" style="width: 4%;" >
+        PV
+      </div>
+
+      <!-- MATIERE -->
+      <div class="pa3 bg-dark-green" style="width: 4%;" >
+        T
+      </div>
+      <div class="pa3 bg-dark-blue" style="width: 4%;" >
+        PV
+      </div>
+      <div class="pa3" style="width: 4%;" >
+      <!-- T + V -->
+
+      </div>
+      <div class="pa3" style="width: 4%;" >
+
+      </div>
+      <!-- T + PV -->
+      <div class="pa3" style="width: 10%;" >
+
+      </div>
+      <div class="pa3" style="width: 10%;" >
+
+      </div>
+    </div>
+    <div class="flex flex-column-m bg-light-yellow dark" >
+      <!-- MATIERE / INGREDIENTS -->
+      <!-- Outil -->
+      <div class="pa3 bg-dark-green" style="width: 8%;" >
+        Travail
+      </div>
+      <div class="pa3 bg-dark-blue" style="width: 8%;" >
+        PV
+      </div>
+
+      <!-- MATIERE > T+PV -->
+      <div class="pa3" style="width: 4%;" >
+
+      </div>
+      <div class="pa3" style="width: 4%;" >
+
+      </div>
+
+
+      <!-- MATIERE -->
+      <div class="pa3" style="width: 4%;" >
+
+      </div>
+      <div class="pa3" style="width: 4%;" >
+
+      </div>
+      <div class="pa3" style="width: 4%;" >
+      <!-- T + V -->
+
+      </div>
+      <div class="pa3" style="width: 4%;" >
+
+      </div>
+
+      <!-- Outil -->
+      <div class="pa3 bg-dark-green" style="width: 8%;" >
+        Travail
+      </div>
+      <div class="pa3 bg-dark-blue" style="width: 8%;" >
+        PV
+      </div>
+
+      <!-- MATIERE > T+PV -->
+      <div class="pa3" style="width: 4%;" >
+
+      </div>
+      <div class="pa3" style="width: 4%;" >
+
+      </div>
+
+      <!-- MATIERE -->
+      <div class="pa3" style="width: 4%;" >
+
+      </div>
+      <div class="pa3" style="width: 4%;" >
+
+      </div>
+      <div class="pa3" style="width: 4%;" >
+      <!-- T + V -->
+
+      </div>
+      <div class="pa3" style="width: 4%;" >
+
+      </div>
+      <!-- T + PV -->
+      <div class="pa3" style="width: 10%;" >
+
+      </div>
+      <div class="pa3" style="width: 10%;" >
+
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-light-yellow dark pa5" >
+    <div class="flex flex-column-m">
+      <div class="w-50 w-100-m" >
+        <h1 class="f4" >La valeur vient du travail</h1>
+        <p class="f4 mt0 lh-copy measure">
+          Avec ce petit schéma, on se rend compte que tout coût indirect et direct d'une marchandise provient essentiellement du travail (salaire) et de la plus-value (bénéfice).
+        </p>
+        <p class="f4 mt0 lh-copy measure">
+          Seulement, la plus-value n'est pas un coût, elle ne rembourse rien. Le capitaliste ne fournit aucune énergie à produire quelque chose, il ne fait que capter une partie de la valeur d'une marchandise.
+        </p>
+        <p class="f4 mt0 lh-copy measure b">
+          Ainsi, si une marchandise a une valeur, c'est pour la seule et unique raison que plusieurs personnes ont <i>travaillé</i> pour que cette marchandise soit produite. <u>La seule origine de la valeur économique, c'est le travail</u>.
+        </p>
+      </div>
+      <div class="w-50 w-100-m" >
+        <h1 class="f4" >Naissance de la plus-value</h1>
+        <p class="f4 mt0 lh-copy measure">
+          Tout l'enjeu du capitalisme est de pouvoir acheter une marchandise pour ensuite la revendre plus chère, afin de dégager un bénéfice. Si la valeur d'un bien provient du travail demandé pour le produire, alors quand un capitaliste se garde une plus-value, il faut bien qu'il la capte de quelque part.
+        </p>
+        <p class="f3 w-60 measure-narrow lh-title i u b bg-black white pa3 shadow" >
+          Du coup, elle vient d'où cette plus-value ?
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-black white pa5" >
+    <div class="flex flex-column-m bb pb3 mb4">
+      <div class="w-third w-100-m" >
+        <h1 class="f3 mt0" >Origine de la plus-value</h1>
+      </div>
+      <div class="w-two-thrid w-100-m" >
+        <p class="f4 mt0 lh-copy measure">
+          Si toute valeur vient du travail, la plus-value doit être prelevée sur quelque chose composant la valeur d'une marchandise. Face à cette nécessité, le capitaliste dispose de trois solutions.
+        </p>
+      </div>
+    </div>
+    <div class="flex flex-column-m flex-wrap" >
+      <div class="w-50 flex pr5" >
+        <div class="pr3" >
+          <h1 class="f4 u" >1.</h1>
+        </div>
+        <div class="" >
+          <h1 class="f4 u" >En augmentant les prix</h1>
+          <p class="f4 mt0 lh-copy measure n">
+            L'entreprise peut augmenter les prix de ses produits : vendus plus chers, les coûts sont fixes mais le bénéfice est plus important.
+          </p>
+          <p class="f4 mt0 lh-copy measure bg-washed-red red pa3">
+            <b>Problème</b> : les entreprises sont sous une pression constante de la concurrence. Augmenter les prix, c'est risquer de voir ses clients filer vers les concurrents vendant les mêmes produits moins chers.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-50 flex pr5" >
+        <div class="pr3" >
+          <h1 class="f4 u" >2.</h1>
+        </div>
+        <div class="" >
+          <h1 class="f4 u" >En rendant les machines plus productives</h1>
+          <p class="f4 mt0 lh-copy measure n">
+            Améliorer les machines permet de produire plus vite pour un même ou moindre coût. Cela permet de faire une économie sur le coût des machines et transférer cette économie vers la plus-value.
+          </p>
+          <p class="f4 mt0 lh-copy measure bg-washed-red red pa3">
+            <b>Problème</b> : améliorer les machines, cela marche un certain de temps mais à terme, tous les concurrents auront eux-mêmes amélioré les leurs. Le jeu de la concurrence fera donc baisser les prix et les entreprises devront baisser leur plus-value.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-50 flex pr5" >
+        <div class="pr3" >
+          <h1 class="f4 u" >3.</h1>
+        </div>
+        <div class="" >
+          <h1 class="f4 u" >En baissant le coup du travail</h1>
+          <p class="f4 mt0 lh-copy measure n">
+            Pour se dégager une plus value, l'entreprise peut baisser le coût du travail. Sur le total de la valeur d'une marchandise, la part de la plus-value s'allonge donc à mesure que la part du salaire diminue. Pour cela, le capitaliste peut recourir à deux méthodes.
+          </p>
+          <p class="f4 mt0 lh-copy measure bg-washed-green green pa3">
+            <b>Solution n°1</b> : augmenter le temps de travail. Cela permet de produire plus en payant autant. Problème : une journée est composée de 24 heures maximum.
+          </p>
+          <p class="f4 mt0 lh-copy measure bg-washed-green green pa3">
+            <b>Solution n°2</b> : augmenter la cadence / baisser les salaires. C'est la même chose : pour un même temps de travail, on paye moins <i>ou</i> pour un temps de travail similaire, on demande plus de travail donc on se fait plus d'argent.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-50 ph5 pv4" >
+        <p class="f3 measure lh-copy " >
+          Voilà d'où provient la plus-value : du travail. Les bénéfices des entreprises correspondent à <u>la part de richesse produite par les salariés mais qui ne leur a pas été rendue</u>.
+        </p>
+        <p class="f3 measure lh-copy " >
+          Pour Marx et Engels, la main d'oeuvre peut-être assimilé à du <u>capital variable</u>. C'est grâce à ce type de capital que l'entreprise va augmenter sa plus-value.
+        </p>
+        <p class="f3 measure lh-copy b" >
+          Plus les salaires sont bas, plus la plus-value est importante.
+        </p>
+      </div>
+
+    </div>
+    <div class="pa4 bg-light-yellow dark-gray mt5" >
+      <div class="flex flex-column-m">
+        <div class="w-third w-100-m" >
+          <h1 class="f3 mt0 mb0" >Remarque sur les salaires</h1>
+        </div>
+        <div class="w-two-thrid w-100-m" >
+          <p class="f4 mt0 lh-copy measure bb pb3">
+            <i>« Il marche pas votre raisonnement, si on suit votre logique on ne serait plus payé à leur qu'il est. On serait des esclaves en sommes. »</i>
+          </p>
+          <p class="f4 mt0 lh-copy measure">
+            Attention ! Le travail est une marchandise, nous salariés vendons notre force de travail aux entreprises. Nous la vendons au prix du marché. Le marché de l'emploi nous met en concurrence entre travailleurs, or il est nécessaire pour nous de manger, de dormir, de nous vêtir.
+          </p>
+          <p class="f4 mt0 lh-copy measure">
+            Ainsi, le prix de notre marchandise – c'est à dire notre salaire – est un équilibre entre ce que nous coûte la vie et la pression du marché. Le coût minimum de la force de travail, c'est la somme de tout ce qui doit être acheté par le salarié pour revenir travailler en bonne santé.
+          </p>
+          <p class="f4 mt0 lh-copy measure b">
+            Les entreprises ont tout intérêt à respecter ce minimum, sinon leur main d'œuvre disparaitra morte de faim, de maladie ou d'épuisement.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <footer class="bg-black white sans-serif flex justify-between ph5 pv4" >
     <div class="" >
